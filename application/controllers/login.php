@@ -6,7 +6,8 @@ class Login extends CI_Controller{
 	function __construct(){
 		parent::__construct();
 		$this->load->model('mlogin');
-		$this->API='192.168.43.52/pos';
+		// $this->API='192.168.43.52/pos';
+		$this->API='localhost/basicserverpos';
 	}
 
 	public function index(){
